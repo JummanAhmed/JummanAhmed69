@@ -1,0 +1,225 @@
+*{
+    margin: 0 ,0;
+    padding: 0 ,0  ;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0e5e9;
+    margin: 0 , 0 ;
+    padding: 0 , 0 ;
+}
+.nav-logo img{
+    position: relative;
+    top:-23px ;
+    height: 170px;
+    text-align: center;
+    left: 37px;
+
+
+}
+
+.nav-logo{
+    background-color: black;
+    height: 100px;
+    
+}
+.nav-menu{
+    background-color: #000000;
+    height: 500px;
+    position: relative;
+    top: -50px;
+    margin: 0 , 100px;
+    visibility: hidden;
+    z-index: 2;
+   
+}
+.nav-menu a{
+    display: block;
+    margin: 50px;
+    font-size: 120%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+    position:relative;
+    top: 30px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+div{
+    position: relative;
+
+}
+
+div h1{
+    
+    position: absolute;
+    bottom: 265px;
+    text-align: center;
+    left: 33px;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+
+div p{
+    position: absolute;
+    bottom: 230px;
+    left: 70px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+.nms img{
+    position: relative;
+    top: -530px;
+    left: 300px;
+    
+    height: 50px;
+}
+
+.nmh img{
+    position: absolute;
+    color: white;
+    top: -460px;
+    left: 300px;
+
+    height: 33px;
+}
+
+.about-sec img{
+    position: relative;
+   top: -510px;
+   width: 100%;
+    
+}
+.about-sec .msg{
+  position: absolute;
+  top: -50px;
+  text-align: justify;
+  width: 100;
+  left: -3px;
+  font-size: 20px;
+
+    
+}
+.dark{
+    visibility: hidden;
+}
+.info{
+    visibility: hidden;
+}
+
+
+.cont-sec .a{
+    height: 50px;
+    position: relative;
+    bottom: 550px
+}
+
+.cont-sec p{
+    position: absolute;
+    bottom: 655px;
+}
+
+
+.div-2 .b{
+    height: 45px;
+    position: relative;
+    bottom: 540px;
+    left: 3px;
+}
+
+.div-2 p{
+    position: absolute;
+    top: -545px;
+}
+
+.div-3 .c{
+    height:65px ;
+    position: relative;
+    bottom: 540px;
+    left: -6px;
+  
+}
+
+.div-3 p{
+    position: absolute;
+    top: -528px;
+    text-align: justify;
+    display: flex;
+    font-size: small;
+}
+
+.div-4 img{
+    display: none;
+    visibility: hidden;
+}
+
+.div-4 p{
+    
+    visibility: hidden;
+}
+
+.div-5 img{
+    
+    display: none;
+    visibility: hidden;
+
+}
+
+.div-5 p{
+    
+    display: none;
+    visibility: hidden;
+}
+
+
+form{
+   
+    position: absolute;
+    bottom:350px;
+    
+
+    
+
+    
+}
+
+form input{
+   
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #e0e5e9;
+    width:325px ;
+}
+
+#f-head{
+    font-family:fantasy;
+    position: absolute;
+    bottom: 150px;
+    font-size: 2rem;
+    
+
+}
+
+#btn-1{
+    position: absolute;
+    bottom:10px;
+    background-color: black;
+    color: white;
+    width: 328px;
+    font-size: 110%;
+    padding: 3px;
+}
+.port-img{
+    margin: 10px ,10px;
+    width: 80px;
+    position: relative;
+    bottom: 500px;
+    
+}
+
+    

@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0 , 0 ;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0e5e9;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background:black;
+    height: 400px;
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background:rgb(95, 65, 54);
+    height: 400px;
+    border-radius: 5px;
+    
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    position: relative;
+    
+}
+
+.nav-logo img{
+    position: relative;
+    top:-23px ;
+    height: 170px;
+
+}
+
+.nav-menu a  {
+    display:inline;
+    color: white;
+    position: relative;
+    left: 750px;
+    top: -133px;
+    right: 50px;
+    margin: 0 50px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 100%;
+}
+.nav-menu a:hover{
+    color: orangered;
+    font-size: 120%;
+}
+.nav-menu a:focus{
+    color: orangered;
+    font-size: 120%;
+}
+
+header .nav{
+    position: fixed;
+    width: 100%;
+    
+}
+
+
+
+
+div{
+    position: relative;
+
+}
+
+div h1{
+    
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+}
+
+div p{
+    position: absolute;
+    top: 220px;
+    left: 574px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+.nms img{
+    visibility: hidden;
+}
+
+.nmh img{
+    visibility: hidden;
+}
+
+
+.about-sec .msg{
+    text-align: justify;
+    position: absolute;
+    left: 40px;
+    width: 700px;
+    top: -190px;
+    font-size: 150%;
+
+    
+}
+
+.about-sec img{
+    width: 250px;
+    position: relative;
+    top: -190px;
+    left: 900px;
+    
+}
+
+.cont-sec .a{
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: -150px;
+}
+
+.cont-sec p{
+    position: absolute;
+    top: -138px;
+    left: 80px;
+    transition: 0.2s;
+}
+
+
+.div-2 .b{
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: -130px;
+}
+
+.div-2 p{
+    position: absolute;
+    top: -120px;
+}
+
+.div-3 .c{
+    height:70px ;
+    position: relative;
+    bottom: 120px;
+    left: 10px;
+  
+}
+
+.div-3 p{
+    position: absolute;
+    top: -95px;
+
+}
+
+.div-4 img{
+    position: relative;
+    height: 70px;
+    bottom: 110px;
+    left: 12px;
+    cursor: pointer;
+}
+
+.div-4 p{
+    position: absolute;
+    top: -90px;
+    cursor: pointer;
+    color: black;
+}
+
+.div-5 img{
+    position: relative;
+    height: 35px;
+    bottom: 90px;
+    left: 22px;
+    cursor: pointer;
+
+}
+
+.div-5 p{
+    position: absolute;
+    top: -90px;
+    cursor: pointer;
+    color: black;
+}
+
+.cont-sec p:hover{
+    color: red;
+    font-size: 120%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 800px;
+    bottom: 240px;
+
+    
+
+    
+}
+
+form input{
+    width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #e0e5e9;
+}
+
+#f-head{
+    font-family:fantasy;
+    position: absolute;
+    bottom: 280px;
+    font-size: 2rem;
+    left: 930px;
+
+}
+
+#btn-1{
+    position: absolute;
+    bottom: 50px;
+    left: 799px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    font-size: 110%;
+    padding: 3px;
+}
+
+#btn-1:hover{
+    background-color: rgb(58, 58, 58);
+    
+    cursor: pointer;
+}
+.cont-sec{
+    position: relative;
+    top: -0px;
+}
+.dark{
+    position: relative;
+    left: 10px;
+    font-size: 250%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    background-color:rgb(0, 0, 0);
+    color:aqua;
+    top: 10px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px ,2px , black;
+}
+.info{
+    position: relative;
+    top: -50px;
+    left: 300px;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+port-sec{
+    padding: 10px ,10px;
+    margin: 10px,10px;
+}
+.port-img{
+    margin: 10px ,10px;
+    width: 330px;
+    position: relative;
+    left: 15px;
+    bottom: 100px;
+    top: -190px;
+}
